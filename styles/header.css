@@ -1,0 +1,62 @@
+@font-face{
+    font-family:Nunito;
+    font-style:normal;
+    font-display:swap;
+    font-weight:400;
+    src:url(/static/nunito-cyrillic-ext-400-normal-e974cce7928dffb2fd31d9e62eeef113.woff2) format("woff2"),url(/static/nunito-all-400-normal-5facca8710643c3862f1acad2be778cd.woff) format("woff");
+    unicode-range:U+0460-052f,U+1c80-1c88,U+20b4,U+2de0-2dff,U+a640-a69f,U+fe2e-fe2f
+}
+@font-face{
+    font-family:Nunito;
+    font-style:normal;
+    font-display:swap;
+    font-weight:400;
+    src:url(/static/nunito-cyrillic-400-normal-0aa7873c17034618e2c70c8cca02d103.woff2) format("woff2"),url(/static/nunito-all-400-normal-5facca8710643c3862f1acad2be778cd.woff) format("woff");
+    unicode-range:U+0400-045f,U+0490-0491,U+04b0-04b1,U+2116
+}
+/*
+    penser a instaler les polices plutot que de coserver les liens => plus opti
+*/
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    background-color:#00cff4;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 15vh;
+}
+#divHeader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+#logoHeader
+{
+    width: 10%;
+}
+#ulHeader
+{
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:80%;
+
+}
+.liheader>a
+{
+    text-decoration: none;
+    color: white;
+}
