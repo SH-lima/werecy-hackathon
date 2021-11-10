@@ -1,0 +1,355 @@
+#div1Index
+{
+    padding-top: 15vh;
+    background-color: #00cff4;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+#div1Index>div>h2
+{
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+    font-size: 9vh;
+    color: rgb(228, 18, 112);
+    
+}
+
+#div1Index>div>h2>em
+{
+    font-style: normal;
+    color: white;
+}
+#div1Index>div>h2>em>b
+{
+    font-style: normal;
+    color:rgb(250, 233, 26);
+    font-weight: inherit;   
+}
+#div1Index>div
+{
+   width: 50%;
+}
+#logoDivIndex
+{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+.dlLogoIndex
+{
+    width: 45%;
+}
+#div2Index
+{
+    background-color: #00cff4;
+    margin: 0;
+}
+#div2index>h2
+{
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    font-size: 7vh;
+    margin: 0;
+    margin-left: 15%;
+}
+#div2Index>h2>em
+{
+    font-style: normal;
+    color: rgb(228, 18, 112);
+}
+#div2Index>h2>b
+{
+    font-style: normal;
+    color:rgb(250, 233, 26);
+}
+#div2Index>p
+{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(38, 38, 38);
+    font-weight:400;
+    font-size: 120%;
+    width: 70%;
+    margin-left: 15%;
+}
+#div3Index
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#div3Index>img
+{
+    border-radius: 10%;
+}
+#div3Index>ul
+{
+    list-style-type: none;
+    width: 45%;
+}
+.liDiv3Index
+{
+    width: 100%;
+}
+.liDiv3Index>div
+{
+   display: flex;
+   justify-content: space-around;
+   margin: 3%;
+
+}
+.liDiv3Index>div>img
+{
+    width: 15%;
+    display: flex;
+  
+}
+.liDiv3Index>div>div
+{
+    font-family: "Nunito", sans-serif;
+    color:rgb(38, 38, 38);
+    font-weight:400;
+    width: 75%;
+}
+#div4Index
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+}
+#div4Index>div
+{
+    width: 35%;  
+}
+#div4Index>div>h2
+{
+    font-family: "Nunito", sans-serif; 
+    color: rgb(228, 18, 112);
+    text-transform: uppercase;
+    font-size: 200%;
+    
+}
+#div4Index>div>h2>em
+{
+    color:rgb(38, 38, 38);
+    font-style: normal;
+}
+#div4Index>div>p
+{
+    color:rgb(38, 38, 38);
+    font-style: normal;
+    font-family: "Nunito", sans-serif; 
+    line-height: 1.75;
+    font-size: 120%;
+}
+.yellow
+{
+    color:rgb(250, 233, 26) !important;
+
+}
+#div4Index>img
+{
+    width: 35%;
+    
+}
+#div5Index
+{
+    
+    background-color: #00cff4; 
+    width:100%;   
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10%;
+}
+#div5Index>h2
+{
+    font-family: "Nunito", sans-serif; 
+    color: rgb(228, 18, 112);
+    text-transform: uppercase;
+    font-size: 200%;
+}
+#div5Index>div
+{
+    display:flex;
+    
+}
+#div5Index>div>p
+{
+    color:rgb(38, 38, 38);
+    font-style: normal;
+    font-family: "Nunito", sans-serif; 
+    line-height: 1.75;
+    font-size: 120%;
+    text-transform: uppercase;
+    width:50%;
+    font-weight: 600;
+}
+#formIndex
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#formIndex>input[type=text]
+{
+    border-radius: 40px;
+    border: none;
+    width: 50%;
+    height: 50%;
+    font-size: 120%;
+}
+#formIndex>input[type=submit]
+{
+    background-color:rgb(228, 18, 112); 
+    border-radius: 40px;
+    border: none;
+    width: 30%;
+    height: 60%;
+    color: white;
+    font-size: 160%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+#div5Index>p
+{
+    color:rgb(38, 38, 38);
+    font-style: normal;
+    font-family: "Nunito", sans-serif; 
+    line-height: 1.75;
+    text-align: center;
+    width: 70%;
+}
+@media screen and (max-width: 850px) 
+{
+    #div1Index
+    {
+        flex-direction: column;
+    }
+    #div1Index > div 
+    {
+        width: 70%;
+        margin-bottom: 10%;
+    }
+    #div1Index > div > h2 
+    {
+        font-size: 10vw;
+    }
+    #div2Index
+    {
+        padding-top: 10%;
+        
+    }
+    #div2index > h2 
+    {
+        font-size: 8vw;
+    }
+    #div3Index
+    {
+        flex-direction: column;
+    }
+    .liDiv3Index > div 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #div3Index > ul 
+    {
+        width: 80%;
+        padding: 0;
+    }
+    .liDiv3Index 
+    {
+        margin-top: 10%;
+    }
+    .liDiv3Index > div > img 
+    {
+        width: 20%;
+    }
+    .liDiv3Index > div > div 
+    {   
+        width: 75%;
+        text-align: center;
+    }
+    #imgDiv5Index
+    {
+        width: 50%;
+    }
+    #div5Index > div 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #formIndex 
+    {
+        width: 75%;
+    }
+    #div5Index > div > p 
+    {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px) 
+{
+    #logoDivIndex 
+    {
+        width: 95%;
+    }
+    #imgDiv1index
+    {
+        width: 60%;
+    }
+    #div4Index
+    {
+        flex-direction: column;
+    }
+    #div4Index > div 
+    {
+        width: 85%;
+    }
+    #div4Index > div > h2 
+    {
+        font-size: 150%;
+    }
+    .divRevers
+    {
+        flex-direction: column-reverse !important;
+    }
+    #div4Index > img 
+    {
+        width: 70%;
+    }
+    #div5Index > h2 
+    {
+        text-align: center;
+    }
+    #imgDiv5Index
+    {
+        width: 75%;
+    }
+    #formIndex 
+    {
+        width: 90%;
+        flex-direction: column;
+    }
+    #formIndex > input[type="text"] 
+    {
+        
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    #formIndex > input[type="submit"] 
+    {
+        
+        width: 80%;
+        margin-bottom: 10%;
+    }
+}

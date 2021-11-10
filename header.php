@@ -3,10 +3,10 @@
 		<img id="img_logo_entreprise" src="img/LOGO-WERECY copie.png"/>
 		<nav>
 			<ul>
-				<li><a href="">CONSOM'ACTEUR</a></li>
-				<li><a href="">COMMERCES</a></li>
-				<li><a href="">DÉFI</a></li>
-				<li><a href="transformation_batterie.php">TRANSFORMATION</a></li>
+				<li><a href="index.php">CONSOM'ACTEUR</a></li>
+				<li><a href="commerce.php">COMMERCES</a></li>
+				<li><a href="defi.php">DÉFI</a></li>
+				<li><a href="transformation.php">TRANSFORMATION</a></li>
 			</ul>
 		</nav>
 	</div>

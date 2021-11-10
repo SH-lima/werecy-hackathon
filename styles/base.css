@@ -4,7 +4,10 @@
 	font-family: "Nunito";
 	src: url("/Police/Nunito-ExtraBold.ttf") format("ttf");
 }
-
+body
+{
+	margin: 0;
+}
 /* HEADER */
 
 	#header{
@@ -12,9 +15,9 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		width: 100vw;
+		/*width: 100vw;*/
 		height: 90px;
-		background-color: #5BCDF0;
+		background-color:#00cff4;
 	}
 
 	#img_logo_entreprise{
@@ -47,7 +50,7 @@
 	#header_mobile{
 		display: none;
 		overflow: hidden;
-		background-color: #5BCDF0;
+		background-color: #00cff4;
 		position: relative;
 		bottom: 0;
 		right: 0;
@@ -113,14 +116,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: #5BCDF0;
+		background-color:#00cff4;
 		padding: 4em 0;
 		color: #FFFFFF;
 	}
 
 	footer .footer_ligne{
 		display: flex;
-		width: 100vw;
+		/*width: 100vw;*/
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
@@ -149,7 +152,7 @@
 
 	footer .footer_ligne_1{
 		display: flex;
-		width: 100vw;
+		/*width: 100vw;*/
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
@@ -158,7 +161,7 @@
 	@media screen and (max-width: 640px){
 		footer .footer_ligne_1{
 			display: flex;
-			width: 100vw;
+			/*width: 100vw;*/
 			flex-direction: column;
 			justify-content: space-around;
 			align-items: center;

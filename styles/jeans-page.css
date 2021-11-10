@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.center_horizontal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.center_horizontale{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-gap: 30px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pink{
+    color: #E41370;
+}
+.yellow{
+    color: #FAE918;
+}
+
+
+    .jeansPage__logo img{
+        width: 130px;
+    }
+
+    .jeansPage__tabs {
+        color: #fff;
+    }
+    .jeansPage__tabs a {
+        padding: 0 20px;
+    }
+
+
+.mainStyle{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5vw 0 ;
+}
+.bleuBackground{
+    background-color: #06CFF4;
+}
+h1{
+    margin: 0 15px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
+h2{
+    font-size: 40px;
+}
+
+.imgJean{
+    width: 400px;
+    margin:20px ;
+}
+.jeansPage__sectionTilte{
+    height: 600px;
+}
+.jeansPage__transformationContent{
+    margin-top: 50px;
+}
+.jeansPage__transformationContent img{
+    border-radius: 20px;
+}
+.jeansPage__transformationContent {
+    margin-top: 40px;
+}
+
+li{
+    list-style: none;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px 15px;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    margin: 0 20px;
+}
+
+
+@media screen and (max-width: 800px){
+    .mainStyle{
+        width: 80%;
+        margin: 0 auto;
+        padding:0 ;
+    }  
+    .center_horizontale {
+        display: none ;
+        
+    }
+    .center_mobile{
+        display: flex important;
+        flex-direction: column-reverse;
+        border: 1px solid red;
+    }
+    
+    .jeansPage__sectionTilte{
+        max-height: 200px;
+        height: 10vh;
+        padding-bottom: 10px;
+    }
+    img{
+        width: 250px; 
+        margin:20px auto;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .tel_center{
+        text-align: center;
+
+    }
+}
