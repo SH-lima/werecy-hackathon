@@ -64,6 +64,7 @@ body
 		position: relative;
 		bottom: 0;
 		right: 0;
+		z-index: 9999999;
 	}
 
 	#header_mobile #logo_mobile{
