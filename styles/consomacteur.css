@@ -71,7 +71,7 @@
 #div2Index>p
 {
     font-family: 'Roboto', sans-serif;
-    color:rgb(38, 38, 38);
+    color: #F5F5F5;
     font-weight:400;
     font-size: 120%;
     width: 70%;
@@ -106,19 +106,21 @@
 {
    display: flex;
    justify-content: space-around;
+	align-items: center;
    margin: 3%;
 
 }
 .liDiv3Index>div>img
 {
     width: 15%;
+	height: 15%;
     display: flex;
   
 }
 .liDiv3Index>div>div
 {
     font-family: "Nunito", sans-serif;
-    color:rgb(38, 38, 38);
+    color: #FFFFFF;
     font-weight:400;
     width: 75%;
 }
@@ -189,7 +191,7 @@
 }
 #div5Index>div>p
 {
-    color:rgb(38, 38, 38);
+    color: #FFFFFF;
     font-style: normal;
     font-family: "Nunito", sans-serif; 
     line-height: 1.75;
@@ -227,7 +229,7 @@
 }
 #div5Index>p
 {
-    color:rgb(38, 38, 38);
+    color: #FFFFFF;
     font-style: normal;
     font-family: "Nunito", sans-serif; 
     line-height: 1.75;

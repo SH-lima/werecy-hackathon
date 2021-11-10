@@ -28,7 +28,7 @@
     <img id="imgDiv1Index" src="img/imgIndex1.png">   
 </div>
 <div id='div2Index'>
-<h2>
+<h2>s
 
         <em>Collecter</em> plus,
         <br>
@@ -46,7 +46,7 @@ La mission de WeRECY est de valoriser la matière d’un objet existant pour en 
     <ul>
         <li class="liDiv3Index">
             <div>
-                <img src='img/indexlogo1'/>
+                <img src='img/indexlogo1.png'/>
                 <div>
                     <h1>Du pouvoir d'achat</h1>
                     <p>À toi "le formidable" qui auras permis de le collecter</p>
@@ -55,7 +55,7 @@ La mission de WeRECY est de valoriser la matière d’un objet existant pour en 
         </li>
         <li class="liDiv3Index">
             <div>
-                <img src='img/indexlogo2'/>
+                <img src='img/indexlogo2.png'/>
                 <div>
                     <h1>De nouveaux clients</h1>
                     <p>Au magasin "héroïque" chez qui tu l'auras remis</p>
@@ -64,7 +64,7 @@ La mission de WeRECY est de valoriser la matière d’un objet existant pour en 
         </li>
         <li class="liDiv3Index">
             <div>
-                <img src='img/indexlogo3'/>
+                <img src='img/indexlogo3.png'/>
                 <div>
                     <h1>De la matière première</h1>
                     <p>À l'artisan"transformateur" qui lui donnera une nouvelle vie</p>
