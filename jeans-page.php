@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles/jeans-page.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">-->
     </head>
     <?php include("header.php"); ?>
     <body>
@@ -41,7 +41,7 @@
                             <p><span class="pink">Réduction consommation</span> de fibres vierges, d’energie et d’eau</p>
                         </li>
                         <li class="center">
-                            <img class="icon" src="./img/santé.png">
+                            <img class="icon" src="img/sante.png">
                             <p>Isolants naturels <span class="pink">bénéfique pour la santé</span></p>
                         </li>
                         <li class="center">

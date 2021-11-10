@@ -1,8 +1,17 @@
 /* CSS Document */
-
+/*
 @font-face {
 	font-family: "Nunito";
-	src: url("/Police/Nunito-ExtraBold.ttf") format("ttf");
+	src: url('Police/Nunito-ExtraBold.ttf') format('ttf');
+}*/
+@font-face {
+    font-family: 'Nunito';
+    src: url('./police/nunito-extrabold-webfont.woff2') format('woff2'),
+         url('./police/nunito-extrabold-webfont.woff') format('woff'),
+         url('./police/nunito-extrabold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 body
 {
@@ -132,6 +141,7 @@ body
 	footer .footer_ligne a{
 		text-decoration: none;
 		color: #FFFFFF;
+		font-family: "Nunito";
 	}
 
 	footer .footer_ligne #img_footer_1{
@@ -174,6 +184,7 @@ body
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		font-family: "Nunito";
 	}
 
 	footer .footer_ligne_1 .footer_ligne_2 .img_footer_store{

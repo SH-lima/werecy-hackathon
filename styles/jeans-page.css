@@ -20,6 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px 15px;
 }
 .pink{
     color: #E41370;
@@ -52,7 +53,7 @@ body{
 h1{
     margin: 0 15px;
     font-size: 50px;
-    font-weight: 800;
+    /*font-weight: 800;*/
     color: #fff;
 }
 h2{
@@ -80,7 +81,6 @@ li{
     list-style: none;
     color: #fff;
     font-size: 25px;
-    margin: 5px 15px;
 }
 .icon{
     width: 80px;
