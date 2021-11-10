@@ -1,24 +1,4 @@
-@font-face {
-    font-family: Nunito;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 400;
-    src: url(/static/nunito-cyrillic-ext-400-normal-e974cce7928dffb2fd31d9e62eeef113.woff2) format("woff2"), url(/static/nunito-all-400-normal-5facca8710643c3862f1acad2be778cd.woff) format("woff");
-    unicode-range: U+0460-052f, U+1c80-1c88, U+20b4, U+2de0-2dff, U+a640-a69f, U+fe2e-fe2f
-}
 
-@font-face {
-    font-family: Nunito;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 400;
-    src: url(/static/nunito-cyrillic-400-normal-0aa7873c17034618e2c70c8cca02d103.woff2) format("woff2"), url(/static/nunito-all-400-normal-5facca8710643c3862f1acad2be778cd.woff) format("woff");
-    unicode-range: U+0400-045f, U+0490-0491, U+04b0-04b1, U+2116
-}
-
-/*
-    penser a instaler les polices plutot que de coserver les liens => plus opti
-*/
 
 body {
     margin: 0;
@@ -116,7 +96,7 @@ em{
 
 .dark{
     
-    color: rgb(38, 38, 38);
+    color: #FFFFFF;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -227,6 +207,11 @@ section {
     max-width: 86vw;
     width: 79.1%;
 }
+
+.inner h3{
+	color: #000000;
+}
+
 .produit:last-child {
     margin-bottom: 0px;
 }
@@ -262,7 +247,7 @@ section {
 }
 p {
     font-size: 1em;
-    color: rgb(38, 38, 38);
+    color: #FFFFFF;
     max-width: 40em;
     margin-top: 0px;
     font-weight: 600;
@@ -290,7 +275,6 @@ em.variant2 {
 }
 
 .solutions{
-    /* display: grid; */
     display: flex;
     width: 68vw;
     margin-left: 5vw;
@@ -379,6 +363,11 @@ background-position: center;
    
     text-align: center;
 }
+
+.css-36v4j3 p{
+	color: #000000;
+}
+
 .css-xqpuol {
     background-color: rgb(90, 206, 154);
     box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;

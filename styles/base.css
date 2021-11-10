@@ -24,9 +24,10 @@ body
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		/*width: 100vw;*/
+		width: 100vw;
 		height: 90px;
 		background-color:#00cff4;
+		font-family: 'Nunito';
 	}
 
 	#img_logo_entreprise{
@@ -76,6 +77,7 @@ body
 		display: none;
 		flex-direction: column;
 		height: calc(100vh - 90px);
+		font-family: 'Nunito';
 	}
 
 	#header_mobile #myLinks a{
@@ -127,6 +129,10 @@ body
 		align-items: center;
 		background-color:#00cff4;
 		padding: 4em 0;
+		color: #FFFFFF;
+	}
+
+	footer p{
 		color: #FFFFFF;
 	}
 

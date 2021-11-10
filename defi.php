@@ -7,7 +7,7 @@
 	<link rel="stylesheet" media="all" href="styles/base.css" type="text/css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <title>WeRECY - Défi</title>
 </head>
 <?php include("header.php"); ?>
 <body>

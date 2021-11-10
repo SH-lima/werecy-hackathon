@@ -16,10 +16,10 @@
 			<img id="img_logo_entreprise" src="img/LOGO-WERECY copie.png"/>
 		</div>
 		<div id="myLinks">
-			<a href="">CONSOM'ACTEUR</a>
-			<a href="">COMMERCES</a>
-			<a href="">DÉFI</a>
-			<a href="transformation_batterie.php">TRANSFORMATION</a>
+			<a href="index.php">CONSOM'ACTEUR</a>
+			<a href="commerce.php">COMMERCES</a>
+			<a href="defi.php">DÉFI</a>
+			<a href="transformation.php">TRANSFORMATION</a>
 		</div>
 		<a href="javascript:void(0);" class="icon" onclick="menu_mobile()">
 			<i class="fa fa-bars"></i>
