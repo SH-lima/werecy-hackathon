@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" media="all" href="styles/base.css" type="text/css" />
         <link rel="stylesheet" href="styles/tranformation.css">
+		<title>WeRECY - Transformation</title>
     </head>
     <?php include("header.php"); ?>
     <body>
