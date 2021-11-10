@@ -1,9 +1,11 @@
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" media="all" href="styles/base.css" type="text/css" />
 		<link rel="stylesheet" media="all" href="styles/consomacteur.css" type="text/css" />
+		
 		<title>WeRECY - Consomacteur</title>
 	</head>
 	
@@ -126,18 +128,9 @@ La mission de WeRECY est de valoriser la matière d’un objet existant pour en 
 </div>
 </section>
 </main>
-<script>
-    /*
-    const firstScrooler=document.querySelector('.liDiv3Index');
-    console.log(firstScrooler);
-    window.addEventListener('scroll',()=>
-    {
-        const{scrollTop, clientHeight}=document.documentElement;
-        console.log(scrollTop, clientHeight);
-    })
-    */
-</script>
+
 	</body>
 	
 	<?php include("footer.php"); ?>
 </html>
+<script src="script/indexAnim.js" asyc></script>
