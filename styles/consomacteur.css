@@ -45,10 +45,11 @@
 }
 #div2Index
 {
-    background-color: #00cff4;
+    background-color:#00cff4;
     margin: 0;
+    padding-top: 5%;
 }
-#div2index>h2
+#div2Index>h2
 {
     text-transform: uppercase;
     font-family: "Nunito", sans-serif;
@@ -81,6 +82,10 @@
     display: flex;
     align-items: center;
     justify-content:center;
+    opacity:0;
+    margin-left: 200%;
+    transition: margin-left 2s;
+    transition: opacity 3s;
 }
 #div3Index>img
 {
@@ -90,6 +95,8 @@
 {
     list-style-type: none;
     width: 45%;
+   
+
 }
 .liDiv3Index
 {
